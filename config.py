@@ -1,5 +1,5 @@
 MODEL_NAME = "gpt2"
-LAYER = 8
+LAYER = LAYERS_TO_TEST = [6, 8, 10, 11]
 DEVICE = "cpu"  # change to "cpu" if needed
 
 SAE_HIDDEN = 512

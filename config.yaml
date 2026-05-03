@@ -1,0 +1,18 @@
+model:
+  name: "gpt2-small"
+  device: "cpu"          # IMPORTANT: keep cpu for now
+  target_layer: 6
+
+tokens:
+  he: " he"
+  she: " she"
+
+sae:
+  release: "gpt2-small-res-jb"
+
+results:
+  tables_dir: "results/tables"
+  figures_dir: "results/figures"
+
+ablation:
+  control_pairs: 10
